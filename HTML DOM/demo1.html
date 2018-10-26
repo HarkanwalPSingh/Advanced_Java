@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <body>
+            <script>
+                function Employee(name){
+                    return this.name=name
+                }    
+
+                Employee.prototype.getName=function(){
+                    return this.getName
+                }
+
+                function Department(manager){
+                    this.manager=manager;
+                }
+
+                Department.prototype.getManager=function(){
+                    return this.manager
+                }
+
+                var dep = new Employee("Satish");
+
+                console.log(dep.getName)
+            </script>
+        </body>
+    </head>
+</html>

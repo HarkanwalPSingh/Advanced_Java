@@ -1,0 +1,24 @@
+<html>
+<head>
+<script>
+var myEmployee={
+empId:1000,
+empName:"adsf",
+empDep:"adsf",
+isAdmin:false,
+empSalary:4564,
+address:{
+street:"MG Road",
+city:"Pune",
+pincode:532155}};
+var productCode={"121":"Mobile","11":"Rice","9":"Pencil","23":"Shirt"}
+for(code in productCode){
+console.log(code);
+console.log(productCode[code])}
+console.log(myEmployee.empId);
+console.log(myEmployee["address"]);
+console.log(myEmployee.address.city);
+delete myEmployee.empDep;
+</script>
+</head>
+</html>
